@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style 
+    style
+       include ../static/style.css
+
+block content 
+       section#introSection 
+           div Welcome to Prateek's academy   
+           div.small Eat Sleep Dance Repeat 
+       section#mission
+           h2 Our mission
+           div.card 
+              h3 Dance Perfection
+              div.card-box
+                div.card-img
+                    img(src="/static/cimg1.jpg")
+                div.card-content
+                | This the best dance academy for you
+           div.card 
+              h3 Dance the Way you like!
+              div.card-box
+                 div.card-img
+                    img(src="/static/cimg2.jpg")
+                 div.card-content
+                 | Choose your own style of dance
+           div.card 
+              h3 Expert Teaching
+              div.card-box
+                 div.card-img
+                    img(src="/static/cimg3.jpg")
+                 div.card-content
+                 | Learn with Greatest of all time
+       section#sponsorsSection
+           h1 Our sponsors 
+           div#sponsors
+               img(src="/static/sp1.jpg", class="spimg")
+               img(src="/static/sp2.jpg", class="spimg")    
+               img(src="/static/sp3.png", class="spimg")
+               img(src="/static/sp4.jpg", class="spimg")       

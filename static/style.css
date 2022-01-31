@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+   margin: 0;
+   box-sizing: border-box;
+   padding: 0;
+}
+
+#logo {
+    color: white;
+    display: flex;
+    align-items: end;
+    margin: 0px 6px;
+    font-size: 12px;
+}
+
+#logo img{
+    height: 42px;
+    margin-right: 6px;
+}
+#navBar{
+    background-color: black;
+    padding: 8px 4px;
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 22px;
+}
+
+#navBar li{
+    list-style: none;
+}
+
+#navBar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navBar li a{
+    text-decoration: none;
+    padding: 11px 31px;
+    color: white;
+    
+}
+
+#navBar li a:hover{
+    background-color: brown;
+    color:black
+}
+
+#introSection {
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;    
+height:463px;
+background-color: red;
+background: center / cover no-repeat url("../static/bg.jpg");
+font-family: 'Permanent Marker', cursive;
+font-size: 43px;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 7px;
+    display: inline-block;
+    width: 30%;
+    margin: 2px 20px;
+    height: 209px;
+}
+
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img {
+    height: 163px;
+    margin-left: 1px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+
+.card h3{
+    text-align: center;
+    margin: 10px;
+}
+
+
+#mission{
+    height:300px;
+    background-color: antiquewhite;
+    margin: auto;
+}
+
+
+#introSection div.small{
+    font-size:25px;
+    padding:3px;
+}
+
+#sponsorsSection{
+height:266px;
+background-color:  rgb(83, 74, 74);
+}
+
+#sponsorsSection h1{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#sponsors {
+    height: 202px;
+    max-width: 1000px;
+    margin: 0px 203px;
+}
+.spimg{
+height: 80%;
+margin: 20px;
+}
+
+#mission h2{
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+}
+
+#footer {
+    background-color: black;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

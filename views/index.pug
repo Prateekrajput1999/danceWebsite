@@ -1,0 +1,57 @@
+doctype html
+html     
+    head 
+        title This is title 
+        style
+            include ../static/style.css
+
+    body 
+       nav#navBar
+        ul 
+           div#logo
+              img(src="../static/logo.jpg") 
+              | PDA
+           li #[a(href="/") Home] 
+           li #[a(href="/") About]
+           li #[a(href="/") Contact us]
+           li #[a(href="/") Services]
+               
+       section#introSection 
+           div Welcome to Prateek's academy   
+           div.small Eat Sleep Dance Repeat 
+       section#mission
+           h2 Our mission
+           div.card 
+              h3 Dance Perfection
+              div.card-box
+                div.card-img
+                    img(src="/static/cimg1.jpg")
+                div.card-content
+                | This the best dance academy for you
+           div.card 
+              h3 Dance the Way you like!
+              div.card-box
+                 div.card-img
+                    img(src="/static/cimg2.jpg")
+                 div.card-content
+                 | Choose your own style of dance
+           div.card 
+              h3 Expert Teaching
+              div.card-box
+                 div.card-img
+                    img(src="/static/cimg3.jpg")
+                 div.card-content
+                 | Learn with Greatest of all time
+       section#sponsorsSection
+           h1 Our sponsors 
+           div#sponsors
+               img(src="/static/sp1.jpg", class="spimg")
+               img(src="/static/sp2.jpg", class="spimg")    
+               img(src="/static/sp3.png", class="spimg")
+               img(src="/static/sp4.jpg", class="spimg")
+       footer#footer 
+           | Copyright © 2021 prateekDanceAcademy.com | All Rights Reserved
+        
+       script 
+        
+        include ../static/index.js 
